@@ -23,7 +23,7 @@ class HelpCog(commands.Cog):
 
     @app_commands.command(name="help", description="查看所有指令的用法說明")
     async def help(self, interaction: discord.Interaction) -> None:
-        await interaction.response.send_message(HELP_TEXT, ephemeral=True)
+        await interaction.response.send_message(HELP_TEXT, ephemeral=False)
 
 
 async def setup(bot: commands.Bot):

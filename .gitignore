@@ -1,0 +1,36 @@
+# 環境變數
+.env
+.env.local
+
+# 資料庫
+data/*.db
+data/*.db-wal
+data/*.db-shm
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+
+# 日誌
+*.log
+logs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 內部筆記（不公開）
+.agents/
+
+# CodeGraph 索引（本機工具，不公開）
+.codegraph/
